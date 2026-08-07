@@ -4,8 +4,8 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, viewport-fit=cover">
 <meta name="apple-mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-<meta name="theme-color" content="#161211">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="theme-color" content="#fff8f2">
 <meta name="robots" content="noindex, nofollow">
 <link rel="manifest" href="manifest.json">
 <link rel="apple-touch-icon" href="icons/icon-180.png">
@@ -17,8 +17,33 @@
 <body>
 <div id="app">
 
+  <!-- SCREEN: landing -->
+  <div class="screen active" id="screen-landing">
+    <div class="landing-hero">
+      <svg class="logo landing-logo" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+        <ellipse cx="24" cy="26" rx="20" ry="18" fill="var(--accent)"/>
+        <circle cx="16" cy="20" r="9" fill="var(--accent)"/>
+        <circle cx="32" cy="18" r="7" fill="var(--accent)"/>
+        <circle cx="14.5" cy="19" r="2.6" fill="var(--bg)"/>
+        <circle cx="15.2" cy="18.3" r="1" fill="#fff"/>
+        <path d="M9 30 Q24 42 39 29 Q24 34 9 30Z" fill="var(--bg)"/>
+        <rect x="13" y="29" width="4" height="5" fill="#fff" rx="1"/>
+        <rect x="20" y="31" width="4" height="5" fill="#fff" rx="1"/>
+        <rect x="27" y="30" width="4" height="5" fill="#fff" rx="1"/>
+      </svg>
+      <h1 class="landing-title">Nomster</h1>
+      <p class="landing-tagline">Stop asking "what do you want to eat." Swipe restaurants together, match when you both say yes.</p>
+    </div>
+    <div class="landing-steps">
+      <div class="step"><span class="step-num">1</span> Create a room from your location</div>
+      <div class="step"><span class="step-num">2</span> Send the link to whoever you're eating with</div>
+      <div class="step"><span class="step-num">3</span> Swipe — matches show up live on both phones</div>
+    </div>
+    <button id="landing-start-btn">Get started</button>
+  </div>
+
   <!-- SCREEN: nickname -->
-  <div class="screen active" id="screen-nickname">
+  <div class="screen" id="screen-nickname">
     <div class="brand">
       <svg class="logo" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
         <ellipse cx="24" cy="26" rx="20" ry="18" fill="var(--accent)"/>

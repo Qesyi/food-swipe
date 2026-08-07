@@ -1,14 +1,14 @@
 <svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
-  <rect width="512" height="512" rx="96" fill="#161211"/>
+  <rect width="512" height="512" rx="96" fill="#ff5c39"/>
   <g transform="translate(96,96) scale(6.6)">
-    <ellipse cx="24" cy="26" rx="20" ry="18" fill="#ff5c39"/>
-    <circle cx="16" cy="20" r="9" fill="#ff5c39"/>
-    <circle cx="32" cy="18" r="7" fill="#ff5c39"/>
-    <circle cx="14.5" cy="19" r="2.6" fill="#161211"/>
-    <circle cx="15.2" cy="18.3" r="1" fill="#fff"/>
-    <path d="M9 30 Q24 42 39 29 Q24 34 9 30Z" fill="#161211"/>
-    <rect x="13" y="29" width="4" height="5" fill="#fff" rx="1"/>
-    <rect x="20" y="31" width="4" height="5" fill="#fff" rx="1"/>
-    <rect x="27" y="30" width="4" height="5" fill="#fff" rx="1"/>
+    <ellipse cx="24" cy="26" rx="20" ry="18" fill="#fff9f4"/>
+    <circle cx="16" cy="20" r="9" fill="#fff9f4"/>
+    <circle cx="32" cy="18" r="7" fill="#fff9f4"/>
+    <circle cx="14.5" cy="19" r="2.6" fill="#2b2018"/>
+    <circle cx="15.2" cy="18.3" r="1" fill="#ff5c39"/>
+    <path d="M9 30 Q24 42 39 29 Q24 34 9 30Z" fill="#2b2018"/>
+    <rect x="13" y="29" width="4" height="5" fill="#fff9f4" rx="1"/>
+    <rect x="20" y="31" width="4" height="5" fill="#fff9f4" rx="1"/>
+    <rect x="27" y="30" width="4" height="5" fill="#fff9f4" rx="1"/>
   </g>
 </svg>

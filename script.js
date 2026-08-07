@@ -89,6 +89,11 @@ function config_ok(){
   }
   const params = new URLSearchParams(window.location.search);
   const joinCode = params.get("room");
+
+  document.getElementById("landing-start-btn").onclick = () => showScreen("screen-nickname");
+  // Skip the landing pitch for anyone joining via a shared link, or anyone who's been here before.
+  if (joinCode || nickname) showScreen("screen-nickname");
+
   document.getElementById("nickname-continue").onclick = () => {
     const v = document.getElementById("nickname-input").value.trim();
     if (!v){
