@@ -1,0 +1,13 @@
+{
+  "name": "Nomster",
+  "short_name": "Nomster",
+  "description": "Swipe restaurants together, match when you both say yes.",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#161211",
+  "theme_color": "#161211",
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png" }
+  ]
+}
